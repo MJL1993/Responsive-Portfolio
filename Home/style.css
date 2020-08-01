@@ -1,0 +1,23 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+body,html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url(..//Portfolio/assets:images/_U7A7907_marshal_square_darken74%.jpeg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -150px;
+}
